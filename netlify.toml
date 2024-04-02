@@ -1,2 +1,2 @@
-[build.environment]
-  NPM_FLAGS = "--force"
+[build]
+  command = "npm install --force && npm run build"
