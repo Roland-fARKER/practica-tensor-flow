@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "mobile": "ng serve --host=0.0.0.0",
-    "build": "ng build",
+    "build": "ng build --force",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -19,7 +19,6 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
-    "@tensorflow-models/face-landmarks-detection": "^1.0.5",
     "@tensorflow-models/facemesh": "^0.0.5",
     "@tensorflow-models/handpose": "^0.1.0",
     "@tensorflow/tfjs": "^4.17.0",
